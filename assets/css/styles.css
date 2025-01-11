@@ -1,0 +1,324 @@
+section {
+  width: 100%;
+}
+
+section.hero {
+  height: 100vh;
+  background-color: #4e4b51;
+}
+
+section.article {
+  padding: 4rem 0;
+  background-color: #efefef;
+}
+
+/* section.jadwal {
+
+}
+
+section.profile {
+
+} */
+
+.navbar {
+  position: fixed;
+  z-index: 10000;
+  width: 100vw;
+  opacity: 80%;
+}
+
+/* .navbar-brand {
+
+} */
+
+.p {
+  margin: 0;
+}
+
+.title {
+  /* padding-left: 10%; */
+  font-size: 125px;
+  font-weight: 700;
+  color: #efefef;
+  height: 100px;
+}
+
+.fs-4 {
+  color: #efefef;
+  padding-left: 8%;
+  text-align: justify;
+  padding-right: 35%;
+}
+
+.title-articles {
+  font-size: 65px;
+  font-weight: 700;
+}
+
+.image-potrait {
+  right: 0;
+  height: 100%;
+}
+
+.self-potrait {
+  height: 100%;
+  width: 450px;
+  transition: filter 0.3s ease;
+}
+
+.image-potrait:hover .self-potrait {
+  filter: brightness(50%);
+}
+
+.button-scroll {
+  background-color: transparent;
+  padding: 8px 40px;
+  border: 1px solid #000;
+  transition: 0.2s ease-in;
+}
+
+.button-scroll:hover {
+  background-color: #000;
+  color: #eddea4;
+}
+
+/* CARD */
+
+.card {
+  text-align: left;
+  max-width: 450px;
+  width: 413px;
+  min-width: 240px;
+  height: 250px;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  transition: all 250ms ease-out;
+  box-shadow: 0 8px 16px -4px rgba(0, 0, 0, 0.1);
+  color: #334155;
+  border: none;
+  cursor: pointer;
+}
+
+.card-text {
+  margin: 0 !important;
+  text-align: center;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card time {
+  display: block;
+  font-weight: 500;
+  line-height: 1 !important;
+  margin: 0 auto !important;
+  color: #cbd5e1;
+}
+
+.card p:first-of-type {
+  font-size: small !important;
+  line-height: 1 !important;
+  margin: 0 auto 0.5rem;
+  display: block;
+}
+
+.card p:not(:first-of-type) {
+  line-height: 1.5;
+  margin: 0 auto 1.5rem;
+  font-size: 1rem;
+  color: #94a3b8;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* GALLERY */
+
+section.gallery {
+  padding: 4rem 0;
+  background-color: #fff;
+}
+
+.title-gallery {
+  font-size: 65px;
+  font-weight: 700;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 15px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.2);
+}
+
+footer {
+  width: 100%;
+  padding: 8px;
+  background-color: #4e4b51;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer img {
+  width: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer div a {
+  cursor: pointer;
+}
+
+.title-jadwal {
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.card-header1 {
+  background-color: blue;
+  color: white;
+}
+
+.card-header2 {
+  background-color: green;
+  color: white;
+}
+
+.card-header3 {
+  background-color: red;
+  color: white;
+}
+
+.card-header4 {
+  background-color: yellow;
+  color: white;
+}
+
+.card-header5 {
+  background-color: cyan;
+  color: white;
+}
+
+.card-header6 {
+  background-color: grey;
+  color: white;
+}
+
+.card-header7 {
+  background-color: black;
+  color: white;
+}
+
+.title-profile {
+  font-size: 65px;
+  font-weight: 700;
+}
+
+.section-profile .img-fluid {
+  padding: 4rem 0;
+  background-color: #fff;
+}
+
+.nama {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.jurusan {
+  text-align: center;
+}
+
+/* @media screen and (max-width: 640px) {
+  .nav-header nav ul li a {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .link {
+    padding: 8px 30px;
+  }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+    padding-bottom: 4rem;
+  }
+
+  .row {
+    padding: 1rem;
+    width: auto !important;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .row ol li {
+    font-size: 14px;
+  }
+
+  .etc {
+    font-size: 14px;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 368px) {
+  .nav-header nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .link {
+    padding: 8px 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  body {
+    max-width: 100vw;
+  }
+
+  nav,
+  nav ul,
+  nav ul li {
+    width: 100%;
+  }
+} */
+
+/* STYLE PHP */
+.style-php {
+  background-color: red;
+}
